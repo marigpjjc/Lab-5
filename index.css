@@ -1,0 +1,260 @@
+.busqueda{
+    height: 100px;
+    width: 100vw;
+    background-color: #fd5c12;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+body{
+    background-color: rgb(231, 231, 231);
+    margin: 0%;
+    display: flex;
+}
+
+.search{
+    border-radius: 20px;
+    padding: 15px 35px;
+    width: 400px;
+    border: 0;
+    outline: none;
+    display: flex;
+    margin-left: 230px;
+}
+
+::placeholder{
+    font-size: 17px;
+}
+
+.shopeee{
+    width: 130px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.car{
+    width: 50px;
+    margin-left: 315px;
+    cursor: pointer;
+}
+
+.divclass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.button{
+    border-radius: 30px;
+    background-color: #ffbb00;
+    border: none;
+    padding: 11px 25px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.buttonimage{
+    width: 20px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px;
+}
+
+.columna{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.destacadoslado{
+    width: 430px; 
+}
+
+.image1{
+    margin-right: 13px;
+}
+
+.columna2{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 490px;
+    height: 200px;
+}
+
+.espacio{
+    margin-bottom: 20px;
+}
+
+a{
+    margin: 3px;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.naranja{
+    font-family: Arial;
+    cursor: pointer;
+    color: #fd5c12;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.naranja:hover{
+    color: rgb(0, 89, 255);
+}
+
+.naranja1:hover{
+    color: rgb(0, 89, 255);
+}
+
+.naranja1{
+    font-family: Arial;
+    cursor: pointer;
+    color: #fd5c12;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+.filtros{
+    margin: 3px;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.oferta{
+    font-family: Arial;
+    background-color: #ffbb00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    width: 100px;
+    margin: 5px 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bot{
+    margin: 3px;
+    font-family: Arial;
+}
+
+.bot2{
+    font-family: Arial;
+    margin: 0px 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.bot22{
+    font-family: Arial;
+    margin: 0px 15px;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+b{
+    margin: 10px;
+    font-family: Arial;
+}
+
+.productos{
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.producto{
+    width: 220px; 
+    height: 220px; 
+    margin: 15px 15px;
+}
+
+.container3{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.listap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.switch-wrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
+    width: 100%; 
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+.switch {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+    background-color: white;
+    padding: 20px;
+    width: 180px;
+    justify-content: flex-end;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.switch p {
+    margin: 0; 
+    margin-right: 10px; 
+    display: flex;
+}
+
+.switch input {
+    display: none; 
+}
+
+.switch label {
+    display: inline-block;
+    width: 40px; 
+    height: 24px; 
+    background-color: #ccc;
+    border-radius: 24px; 
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.switch label:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    width: 18px; 
+    height: 18px; 
+    left: 3px; 
+    bottom: 3px; 
+    transition: transform 0.3s;
+}
+
+.switch input:checked + label {
+    background-color: #fd5c12; 
+}
+
+.switch input:checked + label:before {
+    transform: translateX(16px); 
+}
+
